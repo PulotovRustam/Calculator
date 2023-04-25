@@ -27,7 +27,7 @@ public class Calculator {
                     System.out.println("throws Exception //т.к. строка не является математической операцией");
                     break;
                 }
-                if (a > 10 || b > 10 || a < 0 || b < 0) {
+                if (a > 10 || b > 10 || a < 1 || b < 1) {
                     System.out.println("Output:");
                     System.out.println("throws Exception");
                     continue;
